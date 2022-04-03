@@ -1,0 +1,23 @@
+:root {
+    --theme-color-1: #212b36;
+    --theme-color-2: #19212a;
+    --theme-color-3: #11181e;
+
+    --grid-spacing: 1rem;
+}
+
+.bg-color-1 {
+    background-color: var(--theme-color-1);
+}
+
+.bg-color-2 {
+    background-color: var(--theme-color-2);
+}
+
+.bg-color-3 {
+    background-color: var(--theme-color-3);
+}
+
+body {
+    color: #ffffff;
+}

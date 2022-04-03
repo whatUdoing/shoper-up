@@ -1,0 +1,55 @@
+@import url("background_and_colors_base.css");
+
+.color-box-hex {
+    color: #217373;
+}
+
+.color-box-hex-alpha {
+    color: #2173737a;
+}
+
+.color-box-rgb {
+    color: rgb(33, 115, 115);
+}
+
+.color-box-rgba {
+    color: rgba(33, 115, 115, 0.5);
+}
+
+.color-box-hsl {
+    color: hsl(180, 55.4%, 29%);
+}
+
+.color-box-hsla {
+    color: hsla(180, 55.4%, 29%, 0.5);
+}
+
+.color-box-predefined {
+    color: green;
+}
+
+.background-box-color {
+    background-color: blueviolet;
+}
+
+.background-box-image {
+    background-image: url("./image/dog_1.jpg");
+    background-repeat: no-repeat;
+}
+
+.background-box-image-size-cover {
+    background-image: url("./image/dog_1.jpg");
+    background-size: cover;
+}
+
+.background-box-image-size-contain {
+    background-image: url("./image/dyst_1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.background-box-image-size-custom {
+    background-image: url("./image/dyst_1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

@@ -1,0 +1,31 @@
+.colors-container,
+.backgrounds-container {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: calc(var(--grid-spacing) * 2);
+}
+
+.color-box {
+    display: block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    padding: var(--grid-spacing);
+    border: 5px solid #84b026;
+    font-size: 24px;
+}
+
+.color-box-predefined {
+    width: 300px;
+}
+
+.background-box {
+    font-size: 24px;
+    height: 300px;
+    margin: calc(var(--grid-spacing) * 3) 0;
+    border: 2px solid #84b026;
+    padding: 10px;
+}

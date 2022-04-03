@@ -1,0 +1,35 @@
+.shoper-up .accordion-body {
+    padding: 0;
+    background-color: var(--theme-color-2);
+}
+
+.shoper-up .accordion {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.shoper-up .accordion-button {
+    background-color: var(--theme-color-1);
+}
+
+.shoper-up .accordion-level-primary .accordion-button {
+    padding-left: var(--grid-spacing);
+}
+
+.shoper-up .accordion-level-secondary .accordion-button {
+    padding-left: calc(var(--grid-spacing) * 2);
+    background-color: var(--theme-color-2);
+}
+
+.shoper-up .accordion-level-secondary .accordion-button:hover {
+    background-color: var(--theme-color-1);
+}
+
+.shoper-up .accordion-level-secondary .accordion-body {
+    padding: var(--grid-spacing);
+    padding-left: calc(var(--grid-spacing) * 2);
+}
+
+.shoper-up .accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
