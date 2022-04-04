@@ -24,14 +24,23 @@
 
         <link
             rel="stylesheet"
-            href="/src/styles/global.css"
+            href="../../../../styles/global.css"
         />
 
         <link
             rel="stylesheet"
-            href="/src/styles/global.css"
+            href="box_model_01_base.css"
         />
 
+        <link
+            rel="stylesheet"
+            href="box_model_01.css"
+        />
+
+        <!-- <link
+            rel="stylesheet"
+            href="box_model_01.final.css"
+        /> -->
         <title>Box Model</title>
     </head>
     <body class="bg-color-3 shoper-up">
@@ -73,7 +82,49 @@
         </header>
 
         <main>
-            <div class="container my-4"></div>
+            <div class="container my-4">
+                <section>
+                    <h2>Box model basic</h2>
+
+                    <div class="box-1">this is box with default box model</div>
+
+                    <section>
+                        <h3>Boxes borders</h3>
+
+                        <div class="boxes-with-border">
+                            <div class="border-box box-1-border-solid">box 1 border solid</div>
+
+                            <div class="border-box box-1-border-dashed">box 1 border dashed</div>
+
+                            <div class="border-box box-1-border-dotted">box 1 border dotted</div>
+
+                            <div class="border-box box-1-border-doubled">box 1 border doubled</div>
+
+                            <div class="border-box box-1-border-round">box 1 border round</div>
+                        </div>
+                    </section>
+                </section>
+
+                <section>
+                    <h2>Box model margin collapsing</h2>
+
+                    <div class="box-1-margin-collapsing">box 1</div>
+
+                    <div class="box-2-margin-collapsing">box 2</div>
+
+                    <!-- <div class="box-wrapper">
+                        <div class="box-2-margin-collapsing">box 2</div>
+                    </div> -->
+                </section>
+
+                <section>
+                    <h2>Difference between box models</h2>
+
+                    <div class="box-model-1">this is box with default box model</div>
+
+                    <div class="box-model-2">this is box with second box model</div>
+                </section>
+            </div>
         </main>
     </body>
 </html>

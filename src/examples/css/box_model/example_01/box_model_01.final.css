@@ -1,0 +1,64 @@
+.box-1 {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #84b026;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box-1-border-solid {
+    border-style: solid;
+}
+
+.box-1-border-dashed {
+    border-style: dashed;
+}
+
+.box-1-border-dotted {
+    border-style: dotted;
+}
+
+.box-1-border-doubled {
+    border-style: double;
+}
+
+.box-1-border-round {
+    border-radius: 10px;
+}
+
+.box-1-margin-collapsing {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #84b026;
+    padding: 10px;
+    margin: 20px;
+}
+
+.box-2-margin-collapsing {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #84b026;
+    padding: 10px;
+    margin: 20px;
+}
+
+.box-wrapper {
+    border: 1px solid red;
+}
+
+.box-model-1,
+.box-model-2 {
+    border: 2px solid #84b026;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box-model-1 {
+    box-sizing: content-box;
+}
+
+.box-model-2 {
+    box-sizing: border-box;
+}

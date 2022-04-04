@@ -1,0 +1,20 @@
+.movie-card {
+    background: #ffffff;
+    box-shadow: 0 -0.25rem 2em rgb(255 255 255 / 15%);
+    border-radius: 5px;
+    color: var(--theme-color-2);
+}
+
+.movie-card__header {
+    border-bottom: 1px solid var(--theme-color-1);
+}
+
+.movie-card__footer {
+    border-top: 1px solid var(--theme-color-1);
+}
+
+.movie-card__body,
+.movie-card__footer,
+.movie-card__header {
+    padding: var(--grid-spacing);
+}

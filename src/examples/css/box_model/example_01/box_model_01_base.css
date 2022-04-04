@@ -1,0 +1,12 @@
+.boxes-with-border {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.border-box {
+    border: 5px solid #84b026;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 5px;
+}
