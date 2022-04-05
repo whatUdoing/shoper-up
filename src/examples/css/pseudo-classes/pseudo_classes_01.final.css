@@ -1,0 +1,37 @@
+.button-hover:hover {
+    background-color: #1855b1;
+}
+
+.button-active:active {
+    background-color: yellow;
+    color: black;
+}
+
+.button-focus:focus {
+    border: 3px solid purple;
+    outline: none;
+}
+
+.list__item:nth-child(odd) {
+    border: 1px solid red;
+}
+
+.list__item:nth-child(even) {
+    border: 1px solid red;
+}
+
+.list__item:first-child {
+    border: 1px solid blue;
+}
+
+input:disabled {
+    border: 1px solid blue;
+}
+
+input:required {
+    color: red;
+}
+
+input:invalid {
+    border: 1px solid red;
+}

@@ -1,0 +1,46 @@
+.user-interactions-container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    transition: background-color 0.3s, color 0.3s;
+
+    display: inline-block;
+
+    padding: 5px 10px;
+
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 20px;
+
+    user-select: none;
+    cursor: pointer;
+    vertical-align: middle;
+    font-size: 15px;
+
+    background: #3c83ec;
+}
+
+.list {
+    list-style: none;
+    text-align: center;
+}
+
+.list__item {
+    margin: 5px 0;
+}
+
+.form__control {
+    display: block;
+}
+
+label {
+    display: block;
+}
