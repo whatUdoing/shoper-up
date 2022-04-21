@@ -1,7 +1,7 @@
 .app {
     max-width: 650px;
     margin: 50px auto;
-    border: 1px solid black;
+    border: 1px solid #000000;
     border-radius: 7px;
 }
 
@@ -11,7 +11,7 @@
 
 .header {
     padding: 10px 15px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #000000;
 }
 
 .header__nav {
