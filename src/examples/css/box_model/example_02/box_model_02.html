@@ -15,12 +15,6 @@
             rel="stylesheet"
             href=""
         />
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-            crossorigin="anonymous"
-        />
 
         <link
             rel="stylesheet"
@@ -37,47 +31,21 @@
             href="box_model_02.css"
         /> -->
 
-        <!-- <link
+         <link
             rel="stylesheet"
             href="box_model_02.final.css"
-        /> -->
+        />
         <title>Box Model</title>
     </head>
-    <body class="bg-color-3 shoper-up">
-        <header class="p-3 bg-color-1 text-white">
+    <body class="shoper-up">
+        <header class="shoper-up__header">
             <h1>Box Model</h1>
-
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid p-0">
-                    <div>
-                        <button
-                            class="navbar-toggler"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#navbarNav"
-                            aria-controls="navbarNav"
-                            aria-expanded="false"
-                            aria-label="Toggle navigation"
-                        >
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div
-                            class="collapse navbar-collapse"
-                            id="navbarNav"
-                        >
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a
-                                        class="nav-link"
-                                        aria-current="page"
-                                        href="/src/"
-                                        >Home</a
-                                    >
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+            <nav>
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="/src/"
+                >Home</a>
             </nav>
         </header>
 
@@ -96,68 +64,87 @@
                     </div>
                 </section>
 
-                <section>
-                    <h2>3 column layouts</h2>
+<!--                <section>-->
+<!--                    <h2>3 column layouts</h2>-->
 
-                    <div class="three-column-box-layout">
-                        <div class="layout-item">
-                            <article class="movie-card">
-                                <header class="movie-card__header">
-                                    <h1>MATRIX</h1>
+<!--                    <div class="three-column-box-layout">-->
+<!--                        <div class="layout-item">-->
+<!--                            <article class="movie-card">-->
+<!--                                <header class="movie-card__header">-->
+<!--                                    <h1>MATRIX</h1>-->
 
-                                    <h2>The Matrix</h2>
-                                </header>
+<!--                                    <h2>The Matrix</h2>-->
+<!--                                </header>-->
 
-                                <p class="movie-card__body">
-                                    Haker komputerowy Neo dowiaduje się od tajemniczych rebeliantów, że świat, w którym żyje, jest tylko
-                                    obrazem przesyłanym do jego mózgu przez roboty.
-                                </p>
+<!--                                <p class="movie-card__body">-->
+<!--                                    Haker komputerowy Neo dowiaduje się od tajemniczych rebeliantów, że świat, w którym żyje, jest tylko-->
+<!--                                    obrazem przesyłanym do jego mózgu przez roboty.-->
+<!--                                </p>-->
 
-                                <footer class="movie-card__footer">
-                                    <p>1999</p>
-                                </footer>
-                            </article>
-                        </div>
+<!--                                <footer class="movie-card__footer">-->
+<!--                                    <p>1999</p>-->
+<!--                                </footer>-->
+<!--                            </article>-->
+<!--                        </div>-->
 
-                        <div class="layout-item">
-                            <article class="movie-card">
-                                <header class="movie-card__header">
-                                    <h1>MATRIX REAKTYWACJA</h1>
+<!--                        <div class="layout-item">-->
+<!--                            <article class="movie-card">-->
+<!--                                <header class="movie-card__header">-->
+<!--                                    <h1>MATRIX REAKTYWACJA</h1>-->
 
-                                    <h2>The Matrix Reloaded</h2>
-                                </header>
+<!--                                    <h2>The Matrix Reloaded</h2>-->
+<!--                                </header>-->
 
-                                <p class="movie-card__body">
-                                    Haker komputerowy Neo dowiaduje się od tajemniczych rebeliantów, że świat, w którym żyje, jest tylko
-                                    obrazem przesyłanym do jego mózgu przez roboty.
-                                </p>
+<!--                                <p class="movie-card__body">-->
+<!--                                    Haker komputerowy Neo dowiaduje się od tajemniczych rebeliantów, że świat, w którym żyje, jest tylko-->
+<!--                                    obrazem przesyłanym do jego mózgu przez roboty.-->
+<!--                                </p>-->
 
-                                <footer class="movie-card__footer">
-                                    <p>2003</p>
-                                </footer>
-                            </article>
-                        </div>
+<!--                                <footer class="movie-card__footer">-->
+<!--                                    <p>2003</p>-->
+<!--                                </footer>-->
+<!--                            </article>-->
+<!--                        </div>-->
 
-                        <div class="layout-item">
-                            <article class="movie-card">
-                                <header class="movie-card__header">
-                                    <h1>MATRIX REWOLUCJE</h1>
+<!--                        <div class="layout-item">-->
+<!--                            <article class="movie-card">-->
+<!--                                <header class="movie-card__header">-->
+<!--                                    <h1>MATRIX REWOLUCJE</h1>-->
 
-                                    <h2>The Matrix Revolutions</h2>
-                                </header>
+<!--                                    <h2>The Matrix Revolutions</h2>-->
+<!--                                </header>-->
 
-                                <p class="movie-card__body">
-                                    Haker komputerowy Neo dowiaduje się od tajemniczych rebeliantów, że świat, w którym żyje, jest tylko
-                                    obrazem przesyłanym do jego mózgu przez roboty.
-                                </p>
+<!--                                <p class="movie-card__body">-->
+<!--                                    Haker komputerowy Neo dowiaduje się od tajemniczych rebeliantów, że świat, w którym żyje, jest tylko-->
+<!--                                    obrazem przesyłanym do jego mózgu przez roboty.-->
+<!--                                </p>-->
 
-                                <footer class="movie-card__footer">
-                                    <p>2003</p>
-                                </footer>
-                            </article>
-                        </div>
-                    </div>
-                </section>
+<!--                                <footer class="movie-card__footer">-->
+<!--                                    <p>2003</p>-->
+<!--                                </footer>-->
+<!--                            </article>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </section>-->
+
+                <article class="movie-card">
+                   <header class="movie-card__header">
+                       <h1 class="movie-card__pirmary-header">matrix</h1>
+
+                       <h2 class="movie-card__secondary-header">The matrix</h2>
+                   </header>
+
+                   <main class="movie-card__body">
+                       <p>
+                           Haker komputerowy Neo dowiaduje się od tajemniczych rebeliantów, że świat, w którym żyje, jest tylko obrazem
+                           przesyłanym do jego mózgu przez roboty.
+                       </p>
+                   </main>
+
+                   <footer class="movie-card__footer">
+                       <p>1999</p>
+                   </footer>
+               </article>
             </div>
         </main>
     </body>

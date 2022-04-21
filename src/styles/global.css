@@ -19,5 +19,26 @@
 }
 
 body {
-    color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.shoper-up__header {
+    background-color: var(--theme-color-1);
+    padding: 15px;
+    margin: 0;
+    color: white;
+}
+
+.shoper-up__main {
+    padding: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 21px;
+    color: #3c83ec;
+    font-weight: bold;
 }

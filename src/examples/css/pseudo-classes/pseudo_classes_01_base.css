@@ -1,3 +1,7 @@
+body {
+    color: black;
+}
+
 .user-interactions-container {
     padding: 20px;
     display: flex;

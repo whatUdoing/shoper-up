@@ -26,3 +26,30 @@
     padding: 5px;
     border: 5px solid red;
 }
+
+.movie-card {
+    border: 1px solid rgb(55, 226, 226);
+    width: 500px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.movie-card__header {
+    padding: 10px;
+    color: white;
+    background-image: url("./images/matrix_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 7px double rgb(55, 226, 226);
+}
+
+.movie-card__body {
+    padding: 10px;
+}
+
+.movie-card__footer {
+    margin-top: 55px;
+    padding: 10px;
+    border-top: 7px double rgb(55, 226, 226);
+    text-align: right;
+}
