@@ -20,14 +20,13 @@
                 max-width: 800px;
                 border: 1px solid tomato;
                 padding: 20px;
+                margin: 20px 0;
+            }
+
+            .flex-container {
                 display: flex;
                 align-items: center;
                 gap: 10px
-            }
-
-            .list-container {
-                border: 1px solid tomato;
-                padding: 10px;
             }
 
             .box {
@@ -79,24 +78,22 @@
     </head>
     <body id="my-site" class="my-osom-site__body-class second-class">
 
-        <div class="container">
+        <div class="flex-container container">
             <div id="box-1" class="box box-1"> box 1 </div>
             <div id="box-2" class="box box-2"> box 2</div>
             <div id="box-3" class="box box-3"> box 3</div>
         </div>
 
-        <div class="m-vertical-1">
+        <div class="container">
             <button id="click-me-button">
                 Click me!
             </button>
         </div>
 
-        <div>
-            <h2>Hide me</h2>
-
+        <div class="container">
             <div class="box-container">
                 <div class="box" id="hide-box">
-                    box to hide
+                    Product item
                 </div>
             </div>
 
@@ -115,7 +112,7 @@
             </div>
         </div>
 
-        <div class="list-container">
+        <div class="container">
             <ul class="list">
                 <li class="list__item">List item 1</li>
                 <li class="list__item">List item 2</li>
