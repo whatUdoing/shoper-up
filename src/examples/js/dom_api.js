@@ -1,5 +1,3 @@
-"use strict"
-
 /**
  * Obiekt window i document
  */
@@ -51,9 +49,13 @@
 
 // console.log(box1BySelectorAll)
 
-// const allBoxesBySelectr = document.querySelectorAll('.box');
+// const allBoxesBySelector = document.querySelectorAll('.box');
 
-// console.log(allBoxesBySelectr)
+// console.log(allBoxesBySelector)
+
+// allBoxesBySelector.forEach(function box(box) {
+//     console.log('box', box)
+// })
 
 /**
  * ClassList 
@@ -71,11 +73,16 @@
 
 // console.log(box1.classList.remove('border_pink'))
 
+// allBoxesBySelector.forEach(function box(box) {
+//     console.log('box', box)
+//     box.classList.add('border_pink')
+// })
+
 /**
  * ZADANIE 
  * 
- * Pobrać wszystkie elementy listy 
- * dodać obramowanie to każdego pażystego elementu
+ * Pobrać wszystkie elementy listy (markup na repo)
+ * zmienić kolor tła dla każdego parzystego list item'a
  */
 
 /**

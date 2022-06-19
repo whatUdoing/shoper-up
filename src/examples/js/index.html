@@ -15,7 +15,7 @@
             * {
                 box-sizing: border-box;
             }
-            
+
             .container {
                 max-width: 800px;
                 border: 1px solid tomato;
@@ -23,6 +23,11 @@
                 display: flex;
                 align-items: center;
                 gap: 10px
+            }
+
+            .list-container {
+                border: 1px solid tomato;
+                padding: 10px;
             }
 
             .box {
@@ -53,6 +58,20 @@
 
             .m-vertical-1 {
                 margin: 10px 0;
+            }
+
+
+            .list {
+                max-width: 600px;
+                list-style: none;
+                padding: 0;
+            }
+
+            .list__item {
+                border: 1px solid purple;
+                margin: 5px 0;
+                padding: 5px;
+                cursor: pointer;
             }
         </style>
 
@@ -94,6 +113,16 @@
                     Toggle Box
                 </button>
             </div>
+        </div>
+
+        <div class="list-container">
+            <ul class="list">
+                <li class="list__item">List item 1</li>
+                <li class="list__item">List item 2</li>
+                <li class="list__item">List item 3</li>
+                <li class="list__item">List item 4</li>
+                <li class="list__item">List item 5</li>
+            </ul>
         </div>
 
         <script src="object_literal.js"></script>
