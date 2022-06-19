@@ -58,6 +58,13 @@
 // })
 
 /**
+ * ZADANIE 
+ * 
+ * Pobierz parzyste elementy listy
+ * wyloguj ich id w konsoli
+ */
+
+/**
  * ClassList 
  */
 
