@@ -16,6 +16,35 @@
 
 // console.log(document.body.className)
 
+/**
+ * Poruszanie sie po drzewie
+ */
+
+// document
+
+// document.documentElement
+
+// document.body
+
+// const main = document.getElementById('main')
+
+// console.log(main)
+
+// console.log(main.parentNode)
+
+// console.log(main.nextSibling)
+
+// console.log(main.nextElementSibling)
+
+// console.log(main.previousSibling)
+
+// console.log(main.previousElementSibling)
+
+// console.log(main.childNodes)
+
+// console.log(main.firstChild)
+
+// console.log(main.lastChild)
 
 /**
  * Pobieranie elementów storny

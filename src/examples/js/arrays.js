@@ -30,17 +30,45 @@
 
 // daysOfWeek.push('Wenesday')
 
+// daysOfWeek.push('Tuesday', 'Saturday')
+
 /**
  * USUNIECIE OSTATNIEGO ELEMENTU Z TABLICY
  */
 
-// daysOfWeek.pop()
+// const el = daysOfWeek.pop()
+
+// console.log(el)
 
 /**
  * DŁUGOSC TABLICY
  */
 
 // console.log(daysOfWeek.length)
+
+/**
+ * FILTROWANIE TABLICY
+ */
+
+//  const products = [{ 
+//     name: 'banana',
+//     price: 10
+//  }, {
+//     name: 'pineapple',
+//     price: 15
+//  }, {
+//     name: 'carrot',
+//     price: 5
+//  }, {
+//     name: 'potato',
+//     price: 2
+//  }]
+
+//  const premiumProducts = products.filter(function(product) {
+//     return product.price >= 10
+//  })
+
+//  console.log(premiumProducts);
 
 /**
  * ITEROWANIE PO TABLICY
